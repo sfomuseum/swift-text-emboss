@@ -53,4 +53,6 @@ case .success(let txt):
 
 ## See also
 
+* https://github.com/sfomuseum/swift-text-emboss-cli
+* https://github.com/sfomuseum/swift-text-emboss-www
 * https://developer.apple.com/documentation/vision
