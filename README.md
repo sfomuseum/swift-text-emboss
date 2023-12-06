@@ -80,4 +80,6 @@ $> ./.build/debug/text-emboss --as-json true /usr/local/test.png | jq
 
 * https://github.com/sfomuseum/swift-text-emboss-cli
 * https://github.com/sfomuseum/swift-text-emboss-www
+* https://github.com/sfomuseum/swift-text-emboss-grpc
+* https://github.com/sfomuseum/go-text-emboss
 * https://developer.apple.com/documentation/vision
