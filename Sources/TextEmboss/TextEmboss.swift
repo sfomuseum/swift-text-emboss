@@ -4,7 +4,7 @@ import Vision
 public struct ProcessImageResult: Encodable {
     public var text: String
     public var source: String
-    public var created: Int
+    public var created: Int64
 }
 
 @available(macOS 10.15, iOS 13.0, tvOS 13.0, *)
@@ -42,7 +42,7 @@ public struct TextEmboss {
         let proc = ProcessInfo()
         
         let source = String(format:"com.apple.visionkit.VNImageRequestHandler#%@", proc.operatingSystemVersionString)
-        let created = Int(Date().timeIntervalSince1970)
+        let created = Int64(Date().timeIntervalSince1970)
         
         let rsp = ProcessImageResult(
             text: transcript,

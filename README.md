@@ -59,7 +59,7 @@ Where `rsp` is a `ProcessImageResult` instance:
 public struct ProcessImageResult: Encodable {
     public var text: String
     public var source: String
-    public var created: Int
+    public var created: Int64
 }
 ```
 
